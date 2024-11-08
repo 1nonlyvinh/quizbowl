@@ -1,0 +1,50 @@
+html {
+    background-image: linear-gradient(to right,#000000, #434343);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    margin-top: 8%;
+
+}
+
+.big-container{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+button {
+    background-color: rgb(23, 23, 26);
+    color: white;
+    height: 50px;
+    width: 100px;
+    transition-duration: 1s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+    background-color: #ffffff; /* Green */
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.big-container:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 600px 0 rgba(0,0,0,0.19);
+}
